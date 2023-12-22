@@ -1,0 +1,210 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    header{
+        display: none;
+    }
+
+    /* ==banner-part-start== */
+
+    .banner-part{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 25px 0px;
+
+    }
+
+    .banner-part .headline h1 {
+        font-size: 30px !important;
+        line-height: 40px !important;
+        margin-top: 10px;
+    }
+
+    .banner-part .headline h1 span{
+        font-size: 30px !important;
+    }
+
+    .banner-part .photo img{
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .banner-part .headline p{
+        font-size: 14px !important;
+        line-height: 24px !important;
+        margin-top: 10px;
+    }
+
+    .banner-part .headline .b-btn {
+        margin-top: 20px !important;
+    }
+
+    /* ==banner-part-end== */
+
+    /* ==part-b-start== */
+
+    .part-b {
+        padding: 25px !important;
+    }
+
+    .part-b .chart {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .part-b .chart .chart-a {
+        padding: 25px 50px !important;
+    }
+
+    .part-b .chart .chart-b {
+        padding: 25px 50px !important;
+    }
+
+    .part-b .chart .chart-c {
+        padding: 25px 50px !important;
+    }
+
+    .part-b .chart .chart-d {
+        padding: 25px 50px !important;
+    }
+
+    /* ==part-b-end== */
+
+    .course-part {
+        padding: 0px !important;
+    }
+
+    /* ==part-c-start== */
+
+    .part-c-mainbox {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .part-c-mainbox .box-b {
+        margin-top: 20px;
+    }
+
+    .part-c-mainbox .box-c {
+        margin-top: 20px;
+    }
+
+    /* ==part-c-end== */
+
+    .Testimonial-part {
+        padding: 0px !important;
+    }
+
+    /* ==part-d-start== */
+
+    .part-d .mainbox {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .part-d .mainbox .photo img {
+        margin-left: 0px !important;
+    }
+
+    .part-d .mainbox .text p {
+        font-size: 14px !important;
+        margin-right: 0px !important;
+        margin-top: 5px !important;
+    }
+
+    /* ==part-d-end== */
+
+    /* ==part-e-start== */
+
+    .part-e {
+        padding: 25px 0px !important;
+    }
+
+    .part-e .mainbox {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .part-e .mainbox p {
+        font-size: 14px !important;
+        line-height: 24px !important;
+    }
+
+    .part-e .mainbox h4 {
+        margin-left: 0px !important;
+        padding-top: 15px;
+    }
+
+    .part-e .mainbox li {
+        font-size: 14px !important;
+        margin-left: 0px !important;
+    }
+
+    /* ==part-e-end== */
+
+  }
